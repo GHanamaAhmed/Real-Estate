@@ -5,6 +5,7 @@ import Sectio1 from "./section1/section"
 import Service from "./service/service"
 import {Popular as Popular2} from "./popular2/popular"
 import FAQ from "./FAQ/FAQ"
+import Footer from "./footer/footer"
 function App() {
 
   return (
@@ -16,6 +17,7 @@ function App() {
    <Benifits/>
    <Popular2/>
    <FAQ/>
+   <Footer/>
    </>
   )
 }

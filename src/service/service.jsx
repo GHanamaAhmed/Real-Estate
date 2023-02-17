@@ -13,15 +13,15 @@ export default function Service() {
                         </div>
                         <div className="col-start-2 row-start-1 flex gap-x-2">
                             <img src="./icons/hello.svg" alt="" />
-                            <p className="text-slate-100 text-md font-semibold">Best market</p>
+                            <p className="text-slate-100 text-md font-semibold">Unstable prices</p>
                         </div>
                         <div className="col-start-1 row-start-2 flex gap-x-2">
                             <img src="./icons/hello.svg" alt="" />
-                            <p className="text-slate-100 text-md font-semibold">Best market</p>
+                            <p className="text-slate-100 text-md font-semibold">Top sell</p>
                         </div>
                         <div className="col-start-2 row-start-2 flex gap-x-2">
                             <img src="./icons/hello.svg" alt="" />
-                            <p className="text-slate-100 text-md font-semibold">Best market</p>
+                            <p className="text-slate-100 text-md font-semibold">Security of  data</p>
                         </div>
                 </div>
         </div>

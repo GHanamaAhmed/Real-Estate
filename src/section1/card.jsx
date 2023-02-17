@@ -12,7 +12,6 @@ export default function Card() {
             <Swiper className='absolute w-full bottom-1/4 translate-y-full left-10' modules={[Pagination, A11y]}
                 spaceBetween={-60}
                 slidesPerView={1}
-                onSlide
                 grabCursor={true}
             >
                 <SwiperSlide>

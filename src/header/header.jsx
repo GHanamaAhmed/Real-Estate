@@ -7,7 +7,7 @@ export default function Header() {
                 <li className="text-slate-100 border-transparent border-b-2 py-1 hover:border-b-2 hover:border-green-400">Renting</li>
                 <li className="text-slate-100 border-transparent border-b-2 py-1 hover:border-b-2 hover:border-green-400">Selling</li>
             </ul>
-            <a className='flex gap-x-2 h-fit my-1' href="#">
+            <a className='flex gap-x-2 h-fit my-1' href="https://ghanamaahmed.github.io/Real-Estate/">
                 <img src="./icons/Subtract.png" alt="" />
                 <p className='text-slate-100 font-semibold'>Renty</p>
             </a>
