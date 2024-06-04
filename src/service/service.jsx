@@ -37,7 +37,7 @@ export default function Service() {
         staggerChildren: 0.5,
         delayChildren: 0.2,
       }}
-      className="w-full grid grid-cols-1 md:grid-cols-2 md:grid-rows-1 gap-y-10 px-5 py-5"
+      className="w-full grid grid-cols-1 md:grid-cols-2 md:grid-rows-1 gap-y-10 px-5 pb-5"
     >
       <div className="flex flex-col md:col-start-2 md:justify-center md:gap-y-7 gap-y-4 md:9/12 w-11/12">
         <motion.p
@@ -118,7 +118,7 @@ export default function Service() {
         <motion.img
           variants={popupVariants}
           className="outline outline-4 outline-zinc-700 rounded-lg border border-zinc-700 border-8"
-          src="./icons/Rectangle730.png"
+          src="./icons/Rectangle730.webp"
           alt=""
         />
       </div>

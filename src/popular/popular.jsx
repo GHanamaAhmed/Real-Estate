@@ -38,7 +38,7 @@ export default function Popular() {
         );
   }, [inViewImage]);
   return (
-    <motion.div className="w-ful flex flex-col items-center py-10 gap-y-3">
+    <motion.div className="w-ful flex flex-col items-center pt-10 gap-y-3">
       <motion.div
         animate={paragraphControle}
         initial={"hide"}
@@ -95,7 +95,7 @@ export default function Popular() {
         >
           <motion.li variants={items}>
             <Card
-              img={"./icons/Rectangle720-1.png"}
+              img={"./icons/Rectangle720-1.webp"}
               adress={"Jakarta Barat, USA"}
               bed={"4 bed"}
               m={"10x10 m"}
@@ -105,7 +105,7 @@ export default function Popular() {
           </motion.li>
           <motion.li variants={items}>
             <Card
-              img={"./icons/Rectangle720-2.png"}
+              img={"./icons/Rectangle720-2.webp"}
               adress={"Jakarta Barat, London"}
               bed={"3 bed"}
               m={"9x9 m"}
@@ -116,7 +116,7 @@ export default function Popular() {
           <motion.li variants={items}>
             {" "}
             <Card
-              img={"./icons/Rectangle720.png"}
+              img={"./icons/Rectangle720.webp"}
               adress={"Jakarta Barat, Japan"}
               bed={"6 bed"}
               m={"12x12 m"}

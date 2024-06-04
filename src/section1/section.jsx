@@ -27,21 +27,21 @@ export default function Sectio1() {
         className="absolute -z-20 top-0 -left-10"
         height={200}
         width={200}
-        src="./icons/Bgabstrack.png"
+        src="./icons/Bgabstrack.svg"
         alt=""
       />
       <img
         height={100}
         width={100}
         className="absolute -z-20 left-0 top-80"
-        src="./icons/Ellipse2.png"
+        src="./icons/Ellipse2.svg"
         alt=""
       />
       <img
         height={100}
         width={100}
         className="absolute -z-20 translate-x-full left-1/3 top-44"
-        src="./icons/Ellipse3.png"
+        src="./icons/Ellipse3.svg"
         alt=""
       />
       <motion.div

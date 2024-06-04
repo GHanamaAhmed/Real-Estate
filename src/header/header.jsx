@@ -19,7 +19,14 @@ const variants = {
 };
 export default function Header() {
   return (
-    <div className="flex w-full py-4 justify-between md:justify-around px-3">
+    <motion.header
+      initial="hide"
+      whileInView={"center"}
+      viewport={{
+        once: true,
+      }}
+      className="flex w-full py-4 justify-between md:justify-around px-3"
+    >
       <motion.ul
         initial="left"
         whileInView={"center"}
@@ -64,7 +71,7 @@ export default function Header() {
         className="flex gap-x-2 h-fit my-1"
         href="https://ghanamaahmed.github.io/Real-Estate/"
       >
-        <img src="./icons/Subtract.png" alt="" />
+        <img src="./icons/Subtract.webp" alt="" />
         <p className="text-slate-100 font-semibold">Renty</p>
       </motion.a>
       <motion.ul
@@ -98,9 +105,9 @@ export default function Header() {
           Contact
         </motion.li>
       </motion.ul>
-      <button className="md:hidden">
-        <img src="./icons/Menu.png" alt="" />
-      </button>
-    </div>
+      <motion.button variants={variants} className="md:hidden">
+        <img src="./icons/Menu.webp" alt="" />
+      </motion.button>
+    </motion.header>
   );
 }

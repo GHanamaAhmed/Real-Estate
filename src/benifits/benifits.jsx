@@ -37,7 +37,7 @@ export default function Benifits() {
         staggerChildren: 0.5,
         delayChildren: 0.2,
       }}
-      className="w-full grid grid-cols-1 md:grid-cols-2 md:grid-rows-1 gap-y-10 px-5 py-20 bg-zinc-800"
+      className="w-full grid grid-cols-1 md:grid-cols-2 md:grid-rows-1 gap-y-10 px-5 py-14 bg-zinc-800"
     >
       <div className="flex flex-col md:col-start-1 md:w-9/12 md:justify-self-center md:justify-center md:gap-y-5 gap-y-4 md:9/12 w-11/12">
         <motion.p
@@ -127,7 +127,7 @@ export default function Benifits() {
           <motion.img
             variants={popupVariants}
             className="-z-10"
-            src="./icons/Rectangle73.png"
+            src="./icons/Rectangle73.webp"
             alt=""
           />
           <div className="flex absolute w-11/12 justify-around -translate-x-1/2 left-1/2 bottom-5 gap-x-3 backdrop-blur-md py-3 items-center rounded-xl px-5">
@@ -170,25 +170,25 @@ export default function Benifits() {
               <motion.img
                 variants={popupVariants}
                 className="w-10 h-10 border-2 hover:scale-125 transition duration-500 border-white rounded-full dark:border-gray-800"
-                src="./icons/profile-picture-5.jpg"
+                src="./icons/profile-picture-5.webp"
                 alt=""
               />
               <motion.img
                 variants={popupVariants}
                 className="w-10 h-10 border-2 hover:scale-125 transition duration-500 border-white rounded-full dark:border-gray-800"
-                src="./icons/Ellipse5.png"
+                src="./icons/Ellipse5.webp"
                 alt=""
               />
               <motion.img
                 variants={popupVariants}
                 className="w-10 h-10 border-2 hover:scale-125 transition duration-500 border-white rounded-full dark:border-gray-800"
-                src="./icons/Ellipse6.png"
+                src="./icons/Ellipse6.webp"
                 alt=""
               />
               <motion.img
                 variants={popupVariants}
                 className="w-10 h-10 border-2 hover:scale-125 transition duration-500 border-white rounded-full dark:border-gray-800"
-                src="./icons/Ellipse7.png"
+                src="./icons/Ellipse7.webp"
                 alt=""
               />
             </div>

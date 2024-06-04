@@ -40,7 +40,7 @@ export default function Card() {
           </div>
           <img
             className="rounded-xl"
-            src="./icons/Rectangle731.png"
+            src="./icons/Rectangle731.webp"
             alt=""
             width={218}
             height={78}
@@ -57,7 +57,7 @@ export default function Card() {
           </div>
           <img
             className="rounded-xl"
-            src="./icons/Rectangle732.png"
+            src="./icons/Rectangle732.webp"
             alt=""
             width={218}
             height={78}
@@ -74,7 +74,7 @@ export default function Card() {
           </div>
           <img
             className="rounded-xl"
-            src="./icons/Rectangle733.png"
+            src="./icons/Rectangle733.webp"
             alt=""
             width={218}
             height={78}
@@ -91,7 +91,7 @@ export default function Card() {
           </div>
           <img
             className="rounded-xl"
-            src="./icons/Rectangle734.png"
+            src="./icons/Rectangle734.webp"
             alt=""
             width={218}
             height={78}
