@@ -67,7 +67,7 @@ export default function FAQ() {
   }, [inView]);
   return (
     <AnimatePresence>
-      <motion.div
+      <motion.section
         ref={ref}
         initial="hide"
         animate={mainControle}
@@ -233,7 +233,7 @@ export default function FAQ() {
             payment, try to send a little bit more.
           </p>
         </motion.div>
-      </motion.div>
+      </motion.section>
     </AnimatePresence>
   );
 }

@@ -30,7 +30,7 @@ export function Popular() {
     if (inView) mainControle.start("show");
   }, [inView]);
   return (
-    <motion.div
+    <motion.section
       ref={ref}
       initial="hide"
       animate={mainControle}
@@ -93,6 +93,6 @@ export function Popular() {
       <div className="flex justify-center items-center">
         <Card />
       </div>
-    </motion.div>
+    </motion.section>
   );
 }

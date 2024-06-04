@@ -39,6 +39,7 @@ export default function Card() {
             </p>
           </div>
           <img
+              loading="lazy"
             className="rounded-xl"
             src="./icons/Rectangle731.webp"
             alt=""
@@ -56,6 +57,7 @@ export default function Card() {
             </p>
           </div>
           <img
+              loading="lazy"
             className="rounded-xl"
             src="./icons/Rectangle732.webp"
             alt=""
@@ -73,6 +75,7 @@ export default function Card() {
             </p>
           </div>
           <img
+              loading="lazy"
             className="rounded-xl"
             src="./icons/Rectangle733.webp"
             alt=""
@@ -90,6 +93,7 @@ export default function Card() {
             </p>
           </div>
           <img
+              loading="lazy"
             className="rounded-xl"
             src="./icons/Rectangle734.webp"
             alt=""

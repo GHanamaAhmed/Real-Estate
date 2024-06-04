@@ -29,7 +29,7 @@ export default function Service() {
     if (inView) mainControle.start("show");
   }, [inView]);
   return (
-    <motion.div
+    <motion.section
       ref={ref}
       initial="hide"
       animate={mainControle}
@@ -62,6 +62,7 @@ export default function Service() {
         <div className="grid gap-y-3 grid-cols-2 grid-rows-2">
           <div className="col-start-1 row-start-1 flex gap-x-2">
             <motion.img
+              loading="lazy"
               variants={popupVariants}
               src="./icons/hello.svg"
               alt=""
@@ -75,6 +76,7 @@ export default function Service() {
           </div>
           <div className="col-start-2 row-start-1 flex gap-x-2">
             <motion.img
+              loading="lazy"
               variants={popupVariants}
               src="./icons/hello.svg"
               alt=""
@@ -88,6 +90,7 @@ export default function Service() {
           </div>
           <div className="col-start-1 row-start-2 flex gap-x-2">
             <motion.img
+              loading="lazy"
               variants={popupVariants}
               src="./icons/hello.svg"
               alt=""
@@ -101,6 +104,7 @@ export default function Service() {
           </div>
           <div className="col-start-2 row-start-2 flex gap-x-2">
             <motion.img
+              loading="lazy"
               variants={popupVariants}
               src="./icons/hello.svg"
               alt=""
@@ -116,12 +120,13 @@ export default function Service() {
       </div>
       <div className="flex justify-center items-center md:col-start-1 md:max-w-xs md:justify-self-center md:row-start-1">
         <motion.img
+          loading="lazy"
           variants={popupVariants}
           className="outline outline-4 outline-zinc-700 rounded-lg border border-zinc-700 border-8"
           src="./icons/Rectangle730.webp"
           alt=""
         />
       </div>
-    </motion.div>
+    </motion.section>
   );
 }

@@ -24,6 +24,7 @@ export default function Sectio1() {
   return (
     <>
       <img
+        loading="lazy"
         className="absolute -z-20 top-0 -left-10"
         height={200}
         width={200}
@@ -31,6 +32,7 @@ export default function Sectio1() {
         alt=""
       />
       <img
+        loading="lazy"
         height={100}
         width={100}
         className="absolute -z-20 left-0 top-80"
@@ -38,13 +40,14 @@ export default function Sectio1() {
         alt=""
       />
       <img
+        loading="lazy"
         height={100}
         width={100}
         className="absolute -z-20 translate-x-full left-1/3 top-44"
         src="./icons/Ellipse3.svg"
         alt=""
       />
-      <motion.div
+      <motion.section
         initial="hide"
         whileInView={"show"}
         viewport={{
@@ -73,29 +76,29 @@ export default function Sectio1() {
             </motion.p>
             <motion.div
               variants={variants}
-              className="bg-slate-100 rounded-lg py-2 px-4 justify-between md:flex-row flex gap-y-5 flex-col"
+              className="bg-slate-100 rounded-lg py-2 px-4 justify-between lg:flex-row flex gap-y-5 flex-col"
             >
               <div className="flex gap-x-3">
-                <img src="./icons/Icon-1.svg" alt="" />
+                <img loading="lazy" src="./icons/Icon-1.svg" alt="" />
                 <div className="flex flex-col">
                   <div className="flex gap-x-4 items-center">
                     <p className="text-zinc-500">Location</p>
-                    <img src="./icons/flesh.svg" alt="" />
+                    <img loading="lazy" src="./icons/flesh.svg" alt="" />
                   </div>
                   <p className="text-zinc-900 font-semibold">Yogyakarta</p>
                 </div>
               </div>
               <div className="flex gap-x-3">
-                <img src="./icons/Icon.svg" alt="" />
+                <img loading="lazy" src="./icons/Icon.svg" alt="" />
                 <div className="flex flex-col">
                   <div className="flex gap-x-4 items-center">
                     <p className="text-zinc-500">Type</p>
-                    <img src="./icons/flesh.svg" alt="" />
+                    <img loading="lazy" src="./icons/flesh.svg" alt="" />
                   </div>
                   <p className="text-zinc-900 font-semibold">Industrial Home</p>
                 </div>
               </div>
-              <button className="text-slate-100 bg-emerald-500 text-center py-2 rounded-md md:px-5">
+              <button className="text-slate-100 bg-emerald-500 text-center py-2 rounded-md lg:px-5">
                 Search
               </button>
             </motion.div>
@@ -141,7 +144,7 @@ export default function Sectio1() {
             </motion.div>
           </div>
         </div>
-      </motion.div>
+      </motion.section>
     </>
   );
 }

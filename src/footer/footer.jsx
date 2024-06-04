@@ -36,7 +36,7 @@ export default function Footer() {
     if (inView) mainControle.start("show");
   }, [inView]);
   return (
-    <motion.div
+    <motion.section
       ref={ref}
       initial="hide"
       animate={mainControle}
@@ -204,6 +204,6 @@ export default function Footer() {
           </motion.p>
         </div>
       </div>
-    </motion.div>
+    </motion.section>
   );
 }

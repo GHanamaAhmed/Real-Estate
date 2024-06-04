@@ -71,7 +71,7 @@ export default function Header() {
         className="flex gap-x-2 h-fit my-1"
         href="https://ghanamaahmed.github.io/Real-Estate/"
       >
-        <img src="./icons/Subtract.webp" alt="" />
+        <img loading="lazy" src="./icons/Subtract.webp" alt="" />
         <p className="text-slate-100 font-semibold">Renty</p>
       </motion.a>
       <motion.ul
@@ -106,7 +106,7 @@ export default function Header() {
         </motion.li>
       </motion.ul>
       <motion.button variants={variants} className="md:hidden">
-        <img src="./icons/Menu.webp" alt="" />
+        <img loading="lazy" src="./icons/Menu.webp" alt="" />
       </motion.button>
     </motion.header>
   );

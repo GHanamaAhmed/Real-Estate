@@ -29,7 +29,7 @@ export default function Benifits() {
     if (inView) mainControle.start("show");
   }, [inView]);
   return (
-    <motion.div
+    <motion.section
       ref={ref}
       initial="hide"
       animate={mainControle}
@@ -63,6 +63,7 @@ export default function Benifits() {
         <div className="grid gap-y-5 grid-cols-1 grid-rows-2">
           <div className="flex gap-x-2">
             <motion.img
+              loading="lazy"
               variants={popupVariants}
               src="./icons/Icon-uihut.svg"
               alt=""
@@ -76,6 +77,7 @@ export default function Benifits() {
           </div>
           <div className="flex gap-x-2">
             <motion.img
+              loading="lazy"
               variants={popupVariants}
               src="./icons/Icon-uihut-1.svg"
               alt=""
@@ -89,6 +91,7 @@ export default function Benifits() {
           </div>
           <div className="flex gap-x-2">
             <motion.img
+              loading="lazy"
               variants={popupVariants}
               src="./icons/Icon-uihut-2.svg"
               alt=""
@@ -102,6 +105,7 @@ export default function Benifits() {
           </div>
           <div className="flex gap-x-2">
             <motion.img
+              loading="lazy"
               variants={popupVariants}
               src="./icons/Icon-uihut-3.svg"
               alt=""
@@ -125,6 +129,7 @@ export default function Benifits() {
           className="relative outline outline-4 outline-zinc-700 rounded-lg rounded-tl-full cardbenefits overflow-hidden md:max-w-xs border border-zinc-700 border-8"
         >
           <motion.img
+            loading="lazy"
             variants={popupVariants}
             className="-z-10"
             src="./icons/Rectangle73.webp"
@@ -168,6 +173,7 @@ export default function Benifits() {
             </div>
             <div className="flex -space-x-4 items-center">
               <motion.img
+                loading="lazy"
                 variants={popupVariants}
                 className="w-10 h-10 border-2 hover:scale-125 transition duration-500 border-white rounded-full dark:border-gray-800"
                 src="./icons/profile-picture-5.webp"
@@ -195,6 +201,6 @@ export default function Benifits() {
           </div>
         </motion.div>
       </div>
-    </motion.div>
+    </motion.section>
   );
 }

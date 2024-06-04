@@ -38,7 +38,7 @@ export default function Popular() {
         );
   }, [inViewImage]);
   return (
-    <motion.div className="w-ful flex flex-col items-center pt-10 gap-y-3">
+    <motion.section className="w-ful flex flex-col items-center pt-10 gap-y-3">
       <motion.div
         animate={paragraphControle}
         initial={"hide"}
@@ -60,6 +60,7 @@ export default function Popular() {
         >
           <p className="text-slate-100 cursor-pointer">Explore All</p>
           <img
+              loading="lazy"
             className="cursor-pointer"
             src="./icons/arrow-uihut.svg"
             alt=""
@@ -69,6 +70,7 @@ export default function Popular() {
       </motion.div>
       <div ref={imgRef} className="w-full flex justify-center relative">
         <motion.img
+              loading="lazy"
           animate={imageControle}
           initial={"hide"}
           variants={items}
@@ -77,6 +79,7 @@ export default function Popular() {
           alt=""
         />
         <motion.img
+              loading="lazy"
           animate={imageControle}
           initial={"hide"}
           variants={items}
@@ -134,12 +137,13 @@ export default function Popular() {
       >
         <p className="text-slate-100 cursor-pointer">Explore All</p>
         <img
+              loading="lazy"
           className="cursor-pointer"
           src="./icons/arrow-uihut.svg"
           alt=""
           width={30}
         />
       </motion.div>
-    </motion.div>
+    </motion.section>
   );
 }
