@@ -127,6 +127,7 @@ export default function Popular() {
         </motion.ul>
       </div>
       <motion.div
+        initial={"hide"}
         animate={exploreControle}
         variants={items}
         className="flex gap-x-2 items-center md:hidden"

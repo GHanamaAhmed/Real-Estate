@@ -10,6 +10,16 @@ const variants = {
     scale: 1,
   },
 };
+const textVariants = {
+  hide: {
+    opacity: 0,
+    translateX: "100%",
+  },
+  show: {
+    translateX: 0,
+    opacity: 1,
+  },
+};
 export default function Sectio1() {
   return (
     <>
@@ -48,11 +58,14 @@ export default function Sectio1() {
       >
         <div className="flex justify-center items-center md:justify-start">
           <motion.div className="w-10/12 flex flex-col gap-y-4 md:gap-y-10">
-            <motion.h1 variants={variants} className="text-slate-100 text-4xl">
+            <motion.h1
+              variants={textVariants}
+              className="text-slate-100 text-4xl"
+            >
               Discover the ideal property here
             </motion.h1>
             <motion.p
-              variants={variants}
+              variants={textVariants}
               className="text-zinc-500 text-justify"
             >
               As soon as I had found a few properties that suited me, I was able
@@ -88,7 +101,10 @@ export default function Sectio1() {
             </motion.div>
           </motion.div>
         </div>
-        <motion.div variants={variants} className="flex justify-center items-center py-6 md:col-start-1 md:row-start-1 md:row-span-2">
+        <motion.div
+          variants={variants}
+          className="flex justify-center items-center py-6 md:col-start-1 md:row-start-1 md:row-span-2"
+        >
           <Card />
         </motion.div>
         <div className="flex w-full flex-row justify-center items-center md:justify-start md:col-start-2">
